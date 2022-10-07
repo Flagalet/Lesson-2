@@ -12,7 +12,7 @@ if (a <= 1000 && a > 99 )
     int b = (a % 10);
     Console.WriteLine($"Третья цифра числа {a} -> {b}");
 }
-if (a > 10000)
+if (a > 9999)
 {
     int b = (a / 100) % 10;
     Console.WriteLine($"Третья цифра числа {a} -> {b}");
